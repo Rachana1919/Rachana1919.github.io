@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    background: url(My\ Post.jpg);
+    background-size: cover;
+    margin: 100px auto;
+    animation: slide 25s infinite;
+
+}
+@keyframes slide{
+    25%{
+        background: url(ok.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(okk.jpg);
+        background-size: cover;
+    }
+    75%{
+        background: url(ice.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(cream.jpg);
+        background-size: cover;
+    }
+    90%{
+        background: url(mic.jpg);
+        background-size: cover;
+    }
+}
